@@ -7,54 +7,77 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
     <title>Gehrig Rankin</title>
 </head>
 <body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Gehrig Rankin</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand navbar-inverse" href="#">Gehrig Rankin</a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
+            <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="myNavbar">
+                <li><a class="active" href="#">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
-        
-        
-    <div class="container">
-        <div class="col-md-9">
-            <div class="row">
-                <h1>Gehrig Rankin</h1>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="http://via.placeholder.com/150x150" alt="placeholder">
-                </div>
+    
+    <br><br>
 
-                <div class="col-md-9z">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non incidunt magni dolorum voluptates accusamus aut illum delectus facilis, perferendis ducimus explicabo soluta animi repudiandae dicta magnam consequuntur ex similique quasi et? Excepturi, rem qui! Ratione, praesentium. Officiis nostrum labore necessitatibus soluta animi natus asperiores consequuntur facere, quaerat aut quasi nisi inventore excepturi dolore? Nobis odio cumque vel impedit facilis, nihil omnis tempora labore pariatur nam ducimus doloribus, laboriosam iste quia iusto placeat at doloremque debitis, maiores ullam accusantium fugit architecto.</p>    
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="jumbotron">
+                    <img  id="about-me-pic" class="img-rounded img-thumbnail" src="http://via.placeholder.com/150x150" alt="placeholder" >
                     
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-1">
+                            <h2 style="font-size: 42px;">About Me</h2>
+                        </div>    
+                    </div>
+                    
+                    <div class="row">
+
+                        <div>
+                            <br><br>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quo facere expedita alias quaerat labore unde ea repellat odio, est magni, sint, omnis recusandae nostrum. Aliquam voluptas eius neque quas officiis labore iste quasi non similique sequi culpa asperiores.</p>
+                            
+                            <p>Quam, asperiores doloribus autem expedita praesentium sapiente dolorem voluptatem ex culpa aliquam quia provident sint deserunt ullam accusantium itaque incidunt repudiandae laboriosam at excepturi eveniet dolores nisi aliquid inventore!
+                            </p>
+                            
+                            <p>Culpa autem doloremque est excepturi consectetur ab reiciendis quis recusandae cum corrupti quas porro ducimus repudiandae nisi laudantium odio minima, quae impedit quisquam rerum?</p>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <div class="col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-heading">Panel Heading</div>
-                <div class="panel-body">Panel Content</div>
-            </div>   
-        </div> 
-        
-        
     </div>
+
+
+
+    <footer class="page-footer font-small blue pt-4 mt-4 navbar-fixed-bottom">
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center copyright-footer-bottom">
+            © 2018 Copyright:
+            <a href="https://github.com/gehrigrankin"> github.com/gehrigrankin </a>
+        </div>
+        <!--/.Copyright-->
     
-    
-    
+    </footer>
+    <!--/.Footer-->   
 </body>
 </html>
 </html>
