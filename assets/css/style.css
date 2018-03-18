@@ -32,31 +32,20 @@ body {
 }
 #about-me-head{
     font-size: 42px; 
-    position: relative; 
-    text-align: center;
-    margin-top: -10px;   
+    margin: -10px 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid rgba(64,64,64,0.2);  
 }
 
 
 #about-me-pic {
-    position: absolute;
-    top: -150px;
-    left: -150px;
     padding: 10px;
     background-color: rgba(0,0,0,0.2);
     border: none;
 }
 
-@media screen and (max-width: 990px) {
-    #about-me-pic {
-        position: relative;
-        top: 0px;
-        left: 0px;
-
-    }
+@media screen and (max-width: 768px) {
     #bio {
-        margin-top: -25px;
-        padding: 0px 15px; 
+        padding: 0 20px;
     }
-
 }
