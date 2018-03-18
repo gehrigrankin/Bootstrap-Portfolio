@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 body {
-    background-image: url(https://en.tutsps.com/images/create-a-custom-ios-11-style-blur-background-in-photoshop/create-a-custom-ios-11-style-blur-background-in-photoshop-012.jpg);
+    background: url(https://en.tutsps.com/images/create-a-custom-ios-11-style-blur-background-in-photoshop/create-a-custom-ios-11-style-blur-background-in-photoshop-012.jpg) center center fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .navbar {
@@ -30,12 +30,33 @@ body {
     font-size: 10px;
     
 }
+#about-me-head{
+    font-size: 42px; 
+    position: relative; 
+    text-align: center;
+    margin-top: -10px;   
+}
+
 
 #about-me-pic {
     position: absolute;
-    top: -50px;
-    left: -100px;
+    top: -150px;
+    left: -150px;
     padding: 10px;
     background-color: rgba(0,0,0,0.2);
     border: none;
+}
+
+@media screen and (max-width: 990px) {
+    #about-me-pic {
+        position: relative;
+        top: 0px;
+        left: 0px;
+
+    }
+    #bio {
+        margin-top: -25px;
+        padding: 0px 15px; 
+    }
+
 }
