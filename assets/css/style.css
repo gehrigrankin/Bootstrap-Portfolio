@@ -37,12 +37,12 @@ body {
 
 .portfolio-image {
     position:relative;
-
+    
     text-align: center;
 }
 .portfolio-image h3{
     position: absolute;
-    height: 50px;
+    height: 35px;
     left: 6%;
     right: 6%;
     top: 50%;
