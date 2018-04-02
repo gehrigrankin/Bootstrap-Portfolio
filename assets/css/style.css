@@ -19,7 +19,7 @@ body {
 }
 
 .jumbotron {
-    background-color: rgba(255,255,255,0.2) !important;
+    background-color: rgba(255,255,255,0.15) !important;
     border-radius:10px !important;
 }
 .jumbo-head{
@@ -27,8 +27,9 @@ body {
     margin: -10px 0 20px 0;
     padding: 0 0 20px 0;
     border-bottom: 2px solid rgba(64,64,64,0.2);  
+    font-family: lobster;
 }
-.portfolio-pic, #about-me-pic {
+#about-me-pic {
     padding: 10px;
     margin: 10px 0;
     background-color: rgba(0,0,0,0.2) !important;
@@ -58,6 +59,37 @@ body {
     
 }
 
+.thumbnail {
+    background-color: rgba(255,255,255,0.2) !important;
+    border: 1px solid rgba(200,200,200,0.1) !important;
+}
+
+#psychic-panel {
+    display: none;
+    color: #222222;
+    
+    padding: 15px;
+}
+
+#crystals-panel {
+    display: none;
+    color: #222222;
+    
+    padding: 15px;
+}
+#trivia-panel {
+    display: none;
+    color: #222222;
+    
+    padding: 15px;
+}
+#bio p {
+    line-height: 1.5 !important;
+    font-style: bolder !important;
+
+    color: #222222;
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -70,3 +102,5 @@ body {
     }
     
 }
+
+
